@@ -1,0 +1,10 @@
+nav {
+  z-index: 1;
+  left: 0;
+  top: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
