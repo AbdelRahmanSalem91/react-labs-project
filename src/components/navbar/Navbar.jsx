@@ -18,9 +18,14 @@ const Navbar = () => {
             Shop
           </Link>
         </li>
-        <li>
+        <li className="me-3">
           <Link className="link" to="/counter">
             Counter
+          </Link>
+        </li>
+        <li>
+          <Link className="link" to="/todos">
+            TODOS
           </Link>
         </li>
       </ul>

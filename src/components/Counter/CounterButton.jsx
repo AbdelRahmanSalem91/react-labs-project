@@ -1,7 +1,7 @@
-const CounterButton = ({ count, increase, decrease }) => {
+const CounterButton = ({ state, increase, decrease }) => {
   return (
     <div className="container text-center">
-      <h2 className="count">{count}</h2>
+      <h2 className="count">{state}</h2>
       <button className="btn btn-primary mx-1" onClick={increase}>
         increase
       </button>

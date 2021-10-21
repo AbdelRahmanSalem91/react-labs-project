@@ -4,6 +4,7 @@ import Home from "./components/home/Home";
 import Navbar from "./components/navbar/Navbar";
 import ProductDetails from "./components/product/ProductDetails";
 import Shop from "./components/shop/Shop";
+import Todo from "./views/Todo";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route component={Shop} path="/shop" exact />
             <Route component={ProductDetails} path="/shop/:id" />
             <Route component={Counter} path="/counter" />
+            <Route component={Todo} path="/todos" />
           </Switch>
         </div>
       </div>
