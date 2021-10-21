@@ -13,13 +13,12 @@ const initialState = {
   count: 0,
 };
 
-const reducer = (state = initialState, action) => {
+const counterReducer = (state = initialState, action) => {
   switch (action.type) {
     case INCREMENT_COUNT:
       return { ...state, count: state.count + action.payload };
-    default:
-      return state;
   }
+  return state;
 };
 
-const store = createStore;
+export const store = createStore(counterReducer);

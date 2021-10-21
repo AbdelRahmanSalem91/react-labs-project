@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Counter from "./components/Counter/Counter";
 import Home from "./components/home/Home";
 import Navbar from "./components/navbar/Navbar";
 import ProductDetails from "./components/product/ProductDetails";
 import Shop from "./components/shop/Shop";
 import Todo from "./views/Todo";
+import Counter from "./components/Counter/Counter";
 
 function App() {
   return (

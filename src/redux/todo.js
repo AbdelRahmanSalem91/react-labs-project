@@ -14,7 +14,7 @@ const initialState = {
   todos: [],
 };
 
-const reducer = (state = initialState, action) => {
+const todoReducer = (state = initialState, action) => {
   switch (action.type) {
     case ADD_TODO:
       return { ...state, todos: [...state.todos, action.payload] };
@@ -23,4 +23,4 @@ const reducer = (state = initialState, action) => {
   }
 };
 
-export const store = createStore(reducer);
+export const store = createStore(todoReducer);
