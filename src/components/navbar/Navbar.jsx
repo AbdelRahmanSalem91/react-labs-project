@@ -23,9 +23,19 @@ const Navbar = () => {
             Counter
           </Link>
         </li>
-        <li>
+        <li className="me-3">
           <Link className="link" to="/todos">
             TODOS
+          </Link>
+        </li>
+        <li className="me-3">
+          <Link className="link" to="/login">
+            Login
+          </Link>
+        </li>
+        <li>
+          <Link className="link" to="/register">
+            Register
           </Link>
         </li>
       </ul>
