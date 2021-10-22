@@ -8,6 +8,13 @@ const TodoList = ({ todos, deleteTodo }) => {
               <div className="text-left">
                 <p>Title : {todo.title}</p>
                 <p>Content : {todo.content}</p>
+                <button
+                  className="my-4 btn btn-danger btn-sm px-4"
+                  type="submit"
+                  onClick={() => deleteTodo(i)}
+                >
+                  X
+                </button>
               </div>
             </li>
           </ul>
